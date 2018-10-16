@@ -1,1 +1,1 @@
-web: node index.js
+web: npm i express && node index.js
