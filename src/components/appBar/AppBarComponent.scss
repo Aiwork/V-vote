@@ -1,0 +1,110 @@
+.root {
+  height: 100%;
+  .navigation_container {
+    width: 95%;
+    .nav_menu_background {
+      padding: 0 0 0 40px;
+      width: 100%;
+      display: block;
+      flex-direction: row;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+      -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+      align-content: flex-start;
+      .arrowIcon{
+        padding: 0 5px;
+      }
+      .arrowIconDown{
+        height: 20px;
+        width: 20px;
+        background: url(./../../assets/images/arrowDown.svg)no-repeat;
+      }
+      .arrowIconUp{
+        height: 20px;
+        width: 20px;
+        background: url(./../../assets/images/arrowUp.svg)no-repeat;
+      }
+      .logo_container {
+        width: 150px;
+        height: 42px;
+        margin-right: 50px;
+        background: url(./../../assets/images/vote_logo.svg)no-repeat top left;
+        background-size: contain;
+      }
+      .log_in_button {
+        display: inline-block;
+        padding: 9px 15px;
+        color: white;
+        border: 0;
+        line-height: inherit;
+        text-decoration: none;
+        left: 418623px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 35px;
+        padding-right: 40px;
+        padding-left: 40px;
+        float: right;
+        border-radius: 26px;
+        background-image: -webkit-linear-gradient(180deg, #591aab, #9231c8);
+        background-image: linear-gradient(270deg, #591aab, #9231c8);
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .nav_link {
+        padding-right: 35px;
+        padding-left: 35px;
+        font-family: Montserrat, sans-serif;
+        color: #fff;
+        font-weight: 500;
+      }
+      .search_icon {
+        position: relative;
+        display: block;
+        width: 200px;
+        height: 22px;
+        margin-left: 14px;
+        padding-top: 11px;
+        padding-bottom: 0px;
+        float: right;
+        border: 1px none #fff;
+        .image-5 {
+          max-width: 100%;
+          vertical-align: middle;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          margin-top: 10px;
+          margin-left: -32px;
+          cursor: pointer;
+          background: url("./../../assets/images/search_icon.svg") no-repeat top left;
+          background-size: contain;
+        }
+        .form-block {
+          width: 90%;
+          margin-bottom: 0px;
+          float: left;
+          .search_field {
+            float: left;
+            border-style: none;
+            border-radius: 76px;
+            background-color: #210a44;
+            color: #fff;
+          }
+
+        }
+      }
+
+    }
+  }
+
+}

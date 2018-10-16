@@ -1,0 +1,64 @@
+.coin_panel{
+  .BTC, .ETH, .LTC, .TRX, .BCH, .XMR, .XRP, .DASH, .PPC, .ZEC{
+    background: url(../../assets/images/eth_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 30px;
+    height: 30px;
+  }
+  .BTC{
+    background: url(../../assets/images/btc_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+  }
+
+  .LTC{
+    background: url(../../assets/images/ltc_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .TRX{
+    background: url(../../assets/images/trx_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .BCH{
+    background: url(../../assets/images/bch_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .XMR{
+    background: url(../../assets/images/xmr_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .XRP{
+    background: url(../../assets/images/xrp_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .DASH{
+    background: url(../../assets/images/dash_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .ZEC{
+    background: url(../../assets/images/zec_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .PPC{
+    background: url(../../assets/images/ppc_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .coin_panel{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

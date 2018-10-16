@@ -1,0 +1,28 @@
+.infoMessage{
+  display: flex;
+  margin-top: 15px;
+  .iconInfo{
+    height: 30px;
+    width: 30px;
+    background: url(./../../assets/images/info.svg)no-repeat;
+  }
+  .text_messageInfo{
+    padding: 8px;
+    float: none;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 2vh;
+    line-height: 2.1vh;
+    font-weight: 400;
+  }
+  .w-button_chat{
+    display: inline-block;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+}

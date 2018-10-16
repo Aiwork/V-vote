@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Rectangle_54-2_1_);}
+</style>
+<g transform="matrix(1, 0, 0, 1, 0, 0)">
+	
+		<linearGradient id="Rectangle_54-2_1_" gradientUnits="userSpaceOnUse" x1="-670.7125" y1="339.5875" x2="-671.7125" y2="339.5875" gradientTransform="matrix(80 0 0 -80 53737 27207)">
+		<stop  offset="0" style="stop-color:#FFAC28"/>
+		<stop  offset="1" style="stop-color:#E48A1F"/>
+	</linearGradient>
+	<path id="Rectangle_54-2" class="st0" d="M26,0h28c14.4,0,26,11.6,26,26v28c0,14.4-11.6,26-26,26H26C11.6,80,0,68.4,0,54V26
+		C0,11.6,11.6,0,26,0z"/>
+</g>
+<g id="ZEC_icon" transform="translate(114 204)">
+	<path id="Path_15-2" d="M-72.1-169.6h-9.7v-5.1h5.9v-4.4h5.1v4.4h6.5v3.9c0,0.8-0.2,1.5-0.7,2.1c-0.6,0.8-9.7,11.2-9.7,11.2h10.5
+		v5.1h-6.4v4.4h-5.1v-4.3h-6.4v-3.9c-0.1-0.8,0.2-1.7,0.8-2.3C-81.1-159.1-72.1-169.6-72.1-169.6z"/>
+	<g id="Group_6-2" transform="translate(0 0)">
+		<path id="Path_16-2" d="M-73.5-141c-12.4,0-22.5-10.1-22.5-22.5S-85.9-186-73.5-186S-51-175.9-51-163.5
+			C-51-151.1-61.1-141-73.5-141z M-73.5-183.6c-11.1,0-20.1,9-20.1,20.1s9,20.1,20.1,20.1s20.1-9,20.1-20.1c0,0,0,0,0,0
+			C-53.4-174.6-62.4-183.6-73.5-183.6z"/>
+	</g>
+</g>
+</svg>

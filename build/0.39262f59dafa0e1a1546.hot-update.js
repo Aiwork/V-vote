@@ -1,0 +1,2 @@
+webpackHotUpdate(0,{"./src/config.js":function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=t.IS_TEST_ENVIRONMENT=void 0;t.API_URL="true"===a?"http://localhost:5000/api":"/api"}});
+//# sourceMappingURL=0.39262f59dafa0e1a1546.hot-update.js.map

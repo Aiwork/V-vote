@@ -1,0 +1,9 @@
+.mainHistory{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  .history_container{
+    overflow: auto;
+    height: 82vh;
+  }
+}

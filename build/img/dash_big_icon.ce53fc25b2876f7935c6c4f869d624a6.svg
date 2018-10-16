@@ -1,0 +1,11 @@
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+import React from "react";
+export default ((_ref) => {
+  let {
+    styles = {}
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" {...props}><g><linearGradient id="Rectangle_49-2_1_" gradientUnits="userSpaceOnUse" x1="-670.752" y1="339.868" x2="-671.677" y2="339.305" gradientTransform="matrix(80 0 0 -80 53737 27207)"><stop offset="0" stopColor="#2f75b3" /><stop offset="1" stopColor="#20629d" /></linearGradient><path id="Rectangle_49-2" className={styles["st0"] || "st0"} d="M26 0h28c14.4 0 26 11.6 26 26v28c0 14.4-11.6 26-26 26H26C11.6 80 0 68.4 0 54V26C0 11.6 11.6 0 26 0z" /></g><path id="DASH_icon" className={styles["st1"] || "st1"} d="M40.5 18C28.1 18 18 28.1 18 40.5S28.1 63 40.5 63 63 52.9 63 40.5 52.9 18 40.5 18zM27.2 38.5h10.6l-1.3 4H25.8l1.4-4zM55 36.3l-2.7 8.3c-.2.6-.5 1.1-.9 1.7-.4.5-.9 1-1.4 1.4-.6.4-1.1.8-1.8 1.1-.6.2-1.2.3-1.8.3h-20l1.4-4.3H46l2.9-8.8H30.7l1.4-4.3h20c.5 0 1.1.1 1.5.3.5.2.9.5 1.1 1 .3.4.4.9.4 1.4.2.8.1 1.4-.1 1.9z" /></svg>;
+});

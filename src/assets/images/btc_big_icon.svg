@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Rectangle_22-2_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g transform="matrix(1, 0, 0, 1, 0, 0)">
+	
+		<linearGradient id="Rectangle_22-2_1_" gradientUnits="userSpaceOnUse" x1="-670.7523" y1="339.7676" x2="-671.6772" y2="339.2046" gradientTransform="matrix(80 0 0 -80 53737 27199)">
+		<stop  offset="0" style="stop-color:#EB761C"/>
+		<stop  offset="1" style="stop-color:#A84316"/>
+	</linearGradient>
+	<path id="Rectangle_22-2" class="st0" d="M26,0h28c14.4,0,26,11.6,26,26v28c0,14.4-11.6,26-26,26H26C11.6,80,0,68.4,0,54V26
+		C0,11.6,11.6,0,26,0z"/>
+</g>
+<path id="bitcoin_logo-2" class="st1" d="M53,39.6c2.3-3.4,2.7-7.8,1.1-11.6c-2.4-5.6-9-6.1-9-6.1V18h-7.1v4.2h-2.9V18H28v4.4h-5
+	v6.9h3.7v23.1H23v6.9h5.2v3.3h7v-3.2h3.1v3.2h7v-3.1c7.9-0.7,10.9-5.5,11.1-11.1C56.7,45.1,55.4,41.9,53,39.6z M33.5,29h11
+	c4.6,0,4.7,7.7,0,7.7h-11V29z M45.8,52.3H33.5v-8.5h12.3C50.4,43.8,50.7,52.3,45.8,52.3z"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Rectangle_47-2_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g transform="matrix(1, 0, 0, 1, 0, 0)">
+	
+		<linearGradient id="Rectangle_47-2_1_" gradientUnits="userSpaceOnUse" x1="26.4227" y1="58.0801" x2="25.4977" y2="57.5171" gradientTransform="matrix(80 0 0 -80 -2037 4664)">
+		<stop  offset="0" style="stop-color:#EB761C"/>
+		<stop  offset="1" style="stop-color:#A84316"/>
+	</linearGradient>
+	<path id="Rectangle_47-2" class="st0" d="M26,0h28c14.4,0,26,11.6,26,26v28c0,14.4-11.6,26-26,26H26C11.6,80,0,68.4,0,54V26
+		C0,11.6,11.6,0,26,0z"/>
+</g>
+<path id="PPC_icon" class="st1" d="M40.5,18C28.1,18,18,28.1,18,40.5S28.1,63,40.5,63S63,52.9,63,40.5S52.9,18,40.5,18z M51.1,47.6
+	c-0.7,2.1-2.1,3.9-3.9,5.1c0.1-0.3,0.2-0.7,0.2-1.1c1.2-6.8-1.1-14.9-12.3-19.4c8.9,5.2,12.5,14.3,8.4,20.2
+	c-7.1,1.1-12.3-4.8-12.3-11.6V28.6C47.9,29.2,54.3,38.9,51.1,47.6z"/>
+</svg>

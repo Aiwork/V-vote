@@ -1,0 +1,11 @@
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+import React from "react";
+export default ((_ref) => {
+  let {
+    styles = {}
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" {...props}><g><linearGradient id="Rectangle_22-2_1_" gradientUnits="userSpaceOnUse" x1="-670.752" y1="339.768" x2="-671.677" y2="339.205" gradientTransform="matrix(80 0 0 -80 53737 27199)"><stop offset="0" stopColor="#eb761c" /><stop offset="1" stopColor="#a84316" /></linearGradient><path id="Rectangle_22-2" className={styles["st0"] || "st0"} d="M26 0h28c14.4 0 26 11.6 26 26v28c0 14.4-11.6 26-26 26H26C11.6 80 0 68.4 0 54V26C0 11.6 11.6 0 26 0z" /></g><path id="bitcoin_logo-2" className={styles["st1"] || "st1"} d="M53 39.6c2.3-3.4 2.7-7.8 1.1-11.6-2.4-5.6-9-6.1-9-6.1V18H38v4.2h-2.9V18H28v4.4h-5v6.9h3.7v23.1H23v6.9h5.2v3.3h7v-3.2h3.1v3.2h7v-3.1c7.9-.7 10.9-5.5 11.1-11.1.3-3.3-1-6.5-3.4-8.8zM33.5 29h11c4.6 0 4.7 7.7 0 7.7h-11V29zm12.3 23.3H33.5v-8.5h12.3c4.6 0 4.9 8.5 0 8.5z" /></svg>;
+});

@@ -1,0 +1,11 @@
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+import React from "react";
+export default ((_ref) => {
+  let {
+    styles = {}
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" {...props}><path id="Path_14" className={styles["st0"] || "st0"} d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zM6.5 14.6h7.6l-.9 2.8H5.5l1-2.8zM26.3 13l-1.9 6-.6 1.2c-.3.4-.6.7-1 1-.4.3-.8.6-1.2.8-.4.1-.8.2-1.2.2H6l1-3h12.9l2-6.2H9l1-3.1h14.2c.4 0 .8.1 1.1.2.3.1.6.4.8.7.2.3.3.7.3 1 .1.4.1.8-.1 1.2z" /></svg>;
+});

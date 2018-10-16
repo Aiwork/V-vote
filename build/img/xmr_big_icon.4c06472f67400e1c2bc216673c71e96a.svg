@@ -1,0 +1,11 @@
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+import React from "react";
+export default ((_ref) => {
+  let {
+    styles = {}
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" {...props}><g id="XMR_icon" transform="translate(113.001 204)"><g transform="translate(-113 -204)"><linearGradient id="Rectangle_53-2_1_" gradientUnits="userSpaceOnUse" x1="-670.725" y1="339.824" x2="-671.708" y2="339.349" gradientTransform="matrix(80 0 0 -80 53737.16 27207)"><stop offset="0" stopColor="#fff" /><stop offset="1" stopColor="#ececec" /></linearGradient><path id="Rectangle_53-2" className={styles["st0"] || "st0"} d="M26 0h28c14.4 0 26 11.6 26 26v28c0 14.4-11.6 26-26 26H26C11.6 80 0 68.4 0 54V26C0 11.6 11.6 0 26 0z" /></g><path id="Path_11-2" className={styles["st1"] || "st1"} d="M-73.5-186c12.4 0 22.5 10.1 22.5 22.5 0 2.4-.4 4.8-1.1 7.1h-6.7v-18.9l-14.6 14.6-14.6-14.6v18.9h-6.7c-3.9-11.8 2.5-24.5 14.3-28.5 2.1-.7 4.5-1.1 6.9-1.1" /><path id="Path_12-2" className={styles["st2"] || "st2"} d="M-70.1-157.3l6.4-6.4v11.9h9.5c-6.5 10.6-20.3 14-30.9 7.5-3.1-1.9-5.7-4.5-7.5-7.5h9.5v-11.9l6.4 6.4 3.4 3.4 3.2-3.4z" /></g></svg>;
+});

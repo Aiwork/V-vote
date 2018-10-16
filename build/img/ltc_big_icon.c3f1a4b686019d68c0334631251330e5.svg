@@ -1,0 +1,11 @@
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+import React from "react";
+export default ((_ref) => {
+  let {
+    styles = {}
+  } = _ref,
+      props = _objectWithoutProperties(_ref, ["styles"]);
+
+  return <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" {...props}><g><linearGradient id="Rectangle_51-2_1_" gradientUnits="userSpaceOnUse" x1="-670.727" y1="339.761" x2="-671.727" y2="339.403" gradientTransform="matrix(80 0 0 -80 53737 27207)"><stop offset="0" stopColor="#ababab" /><stop offset="1" stopColor="#a8a8a8" /></linearGradient><path id="Rectangle_51-2" className={styles["st0"] || "st0"} d="M26 0h28c14.4 0 26 11.6 26 26v28c0 14.4-11.6 26-26 26H26C11.6 80 0 68.4 0 54V26C0 11.6 11.6 0 26 0z" /></g><path id="LTC_icon" className={styles["st1"] || "st1"} d="M22.7 63h36.4l2.5-9.1H38.2l2.8-11 7.7-2.3 1.8-6.5-8 2.5 5-18.6H34.3l-5.9 23.2-7.8 2.5-1.6 6.4 8-2.5L22.7 63z" /></svg>;
+});
