@@ -122,7 +122,7 @@ module.exports = (env = {}) => {
       // new webpack.NodeEnvironmentPlugin(["TEST_ENVIRONMENT"])
       new CopyWebpackPlugin([
         // relative path is from src
-        {from: "favicon.ico"}, // <- your path to favicon
+        {from: "./favicon.ico"}, // <- your path to favicon
       ]),
     ]
   }
